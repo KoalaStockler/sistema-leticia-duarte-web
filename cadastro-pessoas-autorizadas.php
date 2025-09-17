@@ -37,7 +37,8 @@ include './template/modal-salvar-dados.php';
 
             <section class="sessao_cadastro ui segment blue">
                 <!-- Etapas de cadastro incluindo no -->
-                <?php include './etapas-cadastro.php' ?>
+                <?php include './template/etapas-cadastro.php' ?>
+
                 <form class="ui form form-cadastro-aluno" id="autorizadaFormulario">
 
                     <div class="pessoaAutorizada" id="autorizada-1">
@@ -137,7 +138,7 @@ include './template/modal-salvar-dados.php';
                     <div class="ui grid">
                         <div class="four column row">
                             <div class="left floated column">
-                                <a href="./cadastros.php" class="ui basic blue icon button" style="margin-top: 10px;">
+                                <a href="./cadastro-estrutura-familiar.php" class="ui basic blue icon button" style="margin-top: 10px;">
                                     <i class="angle left icon"></i> Voltar
                                 </a>
                             </div>
@@ -163,8 +164,8 @@ include './template/modal-salvar-dados.php';
                 e.preventDefault(); // evita ação padrão
 
                 $('#modalSalvar').modal({
-                    centered: true, 
-                    closable: false, 
+                    centered: true,
+                    closable: false,
                     onApprove: function() {
                         $('#autorizadaFormulario').submit(); // envia pro PHP
                     },

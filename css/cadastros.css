@@ -246,3 +246,20 @@ select.ui.dropdown {
     vertical-align: baseline;
     margin-top: 10px;
 }
+
+.ui.form .field>label {
+    display: block;
+    margin: 0 0 .28571429rem 0;
+    color: rgba(0, 0, 0, .87);
+    font-size: .92857143em;
+    font-weight: 700;
+    text-transform: none;
+    font-size: 1.1rem;
+}
+
+.ui.checkbox label,
+.ui.checkbox+label {
+    color: rgba(0, 0, 0, .87);
+    transition: color .1s ease;
+    font-size: 1.2rem;
+}

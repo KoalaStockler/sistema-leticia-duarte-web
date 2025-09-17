@@ -4,7 +4,7 @@
     <i class="trash icon"></i>
     Remover Responsável
   </div>
-  <div class="content">
+  <div class="content" style="text-align: center; font-size: 1.4rem;">
     <p>Tem certeza que deseja remover este responsável?</p>
   </div>
   <div class="actions">

@@ -3,7 +3,7 @@
     <i class="trash icon"></i>
     Remover Pessoa Autorizada
   </div>
-  <div class="content">
+  <div class="content" style="text-align: center; font-size: 1.4rem;">
     <p>Tem certeza que deseja remover esta pessoa autorizada?</p>
   </div>
   <div class="actions">

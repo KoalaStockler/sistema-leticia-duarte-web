@@ -32,8 +32,9 @@
 
             <section class="sessao_cadastro ui segment blue">
                 <!-- Etapas de cadastro incluindo no -->
-                <?php include './etapas-cadastro.php' ?>
-                <form class="ui form">
+                <?php include './template/etapas-cadastro.php' ?>
+
+                <form class="ui form form-cadastro-estrutura-familia">
 
                     <div class="fields">
                         <div class="four wide field">

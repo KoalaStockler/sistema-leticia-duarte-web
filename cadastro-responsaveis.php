@@ -36,7 +36,8 @@ include './template/modal-remover-responsavel.php'
 
             <section class="sessao_cadastro ui segment blue">
                 <!-- Etapas de cadastro incluindo no -->
-                <?php include './etapas-cadastro.php' ?>
+                <?php include './template/etapas-cadastro.php' ?>
+
                 <form class="ui form form-cadastro-aluno" id="responsavelFormulario">
 
                     <div class="responsavel" id="responsavel-1">
@@ -260,9 +261,7 @@ include './template/modal-remover-responsavel.php'
     </section>
 
     <script>
-      
-
-            $(document).ready(function() {
+        $(document).ready(function() {
             $('#btnRemoverResponsavel').on('click', function() {
                 $('.ui.basic.modal').modal({
                     centered: true

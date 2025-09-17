@@ -14,15 +14,15 @@ $indice_atual = array_search($pagina_atual, array_column($etapas, 'arquivo'));
 
 <div class="ui stackable steps full-width">
     <?php foreach ($etapas as $indice => $etapa): ?>
-        <a class="step 
+        <div class="step 
                 <?= $indice < $indice_atual ? 'completed' : '' ?> 
-                <?= $indice === $indice_atual ? 'active' : '' ?>" 
-           href="<?= $etapa['arquivo'] ?>">
+                <?= $indice === $indice_atual ? 'active' : '' ?>">
             <i class="<?= $etapa['icon'] ?> icon"></i>
             <div class="content">
                 <div class="title"><?= $etapa['title'] ?></div>
                 <div class="description"><?= $etapa['desc'] ?></div>
             </div>
-        </a>
+        </div>
     <?php endforeach; ?>
 </div>
+

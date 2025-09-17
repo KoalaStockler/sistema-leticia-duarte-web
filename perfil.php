@@ -31,8 +31,84 @@
             </section>
 
             <section class="sessao_cadastro ui segment blue">
-                
+                <h3 class="ui dividing header">Dados do Funcionário</h3>
+
+                <div class="ui stackable four column grid">
+                    <div class="column">
+                        <div class="ui segment">
+                            <h4 class="ui header"><i class="user icon"></i>Nome</h4>
+                            <p>João da Silva</p>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="ui segment">
+                            <h4 class="ui header"><i class="envelope icon"></i>Email</h4>
+                            <p>joao.silva@email.com</p>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="ui segment">
+                            <h4 class="ui header"><i class="phone icon"></i>Celular</h4>
+                            <p>(11) 91234-5678</p>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="ui segment">
+                            <h4 class="ui header"><i class="id card icon"></i>CPF</h4>
+                            <p>123.456.789-00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ui divider"></div>
+
+                <div style="text-align:right;">
+                    <button class="ui yellow button"><i class="edit icon"></i>Editar</button>
+                </div>
             </section>
+
+
+            <h2>Histórico de Cadastro</h2>
+
+            <section class="sessao_cadastro ui segment blue">
+
+                <div class="ui action input" style="margin-bottom: 20px; width: 400px;">
+                    <input type="text" id="txtPesquisar" placeholder="Pesquisar aluno (Nome/RA/Responsável)">
+                    <button class="ui primary button"><i class="search icon"></i> Pesquisar</button>
+                </div>
+
+                <table class="ui single line table center aligned stackable">
+                    <thead>
+                        <tr>
+                            <th>Registro do Aluno (RA)</th>
+                            <th>Nome</th>
+                            <th>Data de Nascimento</th>
+                            <th>Última Atualização</th>
+                            <th>Alterações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <button class="ui small icon button blue" title="Detalhes">
+                                    <i class="eye icon"></i> Detalhes
+                                </button>
+                                <a href="./cadastradosExcluir.php?idExluir=<?= $linha['ra_aluno'] ?>" class="ui small red icon button" title="Excluir">
+                                    <i class="trash icon"></i> Excluir
+                                </a>
+                                <button class="ui small icon button yellow" title="Editar">
+                                    <i class="edit icon"></i> Editar
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+
         </main>
     </section>
 
