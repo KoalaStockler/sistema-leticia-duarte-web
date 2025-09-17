@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -41,28 +40,53 @@
                 <table class="ui single line table center aligned">
                     <thead>
                         <tr>
-                            <th>Registro do Aluno (RA)</th>
-                            <th>Nome</th>
-                            <th>Data de Nascimento</th>
-                            <th>Responsável</th>
-                            <th>Ações</th>
+                            <th><i class="hashtag icon"></i> RA</th>
+                            <th><i class="user icon"></i> Nome</th>
+                            <th><i class="birthday cake icon"></i> Data de Nascimento</th>
+                            <th><i class="book icon"></i> Série</th>
+                            <th><i class="users icon"></i> Responsável</th>
+                            <th><i class="cogs icon"></i> Ações</th>
                         </tr>
                     </thead>
                     <tbody>
-                            <tr>
-
-                                <td>
-                                    <button class="ui small icon button blue" title="Detalhes">
-                                        <i class="eye icon"></i> Detalhes
-                                    </button>
-                                    <a href="./cadastradosExcluir.php?idExluir=<?= $linha['ra_aluno']?>" class="ui small red icon button" title="Excluir">
-                                        <i class="trash icon"></i> Excluir
-                                    </a>
-                                    <button class="ui small icon button yellow" title="Editar">
-                                        <i class="edit icon"></i> Editar
-                                    </button>
-                                </td>
-                            </tr>
+                        <tr>
+                            <td>12345</td>
+                            <td>João da Silva</td>
+                            <td>01/01/2005</td>
+                            <td>3º Ano</td>
+                            <td>Maria Silva</td>
+                            <td>
+                                <button class="ui small icon button blue" title="Detalhes">
+                                    <i class="eye icon"></i> Detalhes
+                                </button>
+                                <a href="./cadastradosExcluir.php?idExluir=<?= $linha['ra_aluno'] ?>"
+                                    class="ui small red icon button" title="Excluir">
+                                    <i class="trash icon"></i> Excluir
+                                </a>
+                                <button class="ui small icon button yellow" title="Editar">
+                                    <i class="edit icon"></i> Editar
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>12346</td>
+                            <td>Maria Oliveira</td>
+                            <td>15/02/2006</td>
+                            <td>2º Ano</td>
+                            <td>José Oliveira</td>
+                            <td>
+                                <button class="ui small icon button blue" title="Detalhes">
+                                    <i class="eye icon"></i> Detalhes
+                                </button>
+                                <a href="./cadastradosExcluir.php?idExluir=<?= $linha['ra_aluno'] ?>"
+                                    class="ui small red icon button" title="Excluir">
+                                    <i class="trash icon"></i> Excluir
+                                </a>
+                                <button class="ui small icon button yellow" title="Editar">
+                                    <i class="edit icon"></i> Editar
+                                </button>
+                            </td>
+                        </tr>
                     </tbody>
                 </table>
             </section>

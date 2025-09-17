@@ -135,6 +135,10 @@
     }
 }
 
+h1{
+    font-size:3rem;
+}
+
 .conteudo_perfil {
     padding: 40px 2vw 20px 2vw;
     width: 100%;
@@ -142,3 +146,20 @@
     background-image: url(../img/apresentacao_img/background_fundo-removebg.png);
 }
 
+.conteudo_perfil {
+    padding: 40px 2vw 20px 2vw;
+    width: 100%;
+    display: flex
+;
+    flex-direction: column;
+    background-color: #F6F6F6;
+    gap: 10px;
+}
+
+.cabecalho_cadastrados {
+    display: flex
+;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}

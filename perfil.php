@@ -7,7 +7,7 @@
     <title>Sistema</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css" />
-    <link rel="stylesheet" href="./css/cadastros.css" />
+    <link rel="stylesheet" href="./css/perfil.css" />
 
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js"></script>
@@ -23,9 +23,9 @@
     <section class="corpo_pagina">
         <?php include './template/menuLateral.php' ?>
 
-        <main class="conteudo_cadastrados">
+        <main class="conteudo_perfil">
             <section class="cabecalho_cadastrados">
-                <h2>Perfil</h2>
+                <h1>Perfil</h1>
                 <img class="ui small image fluid" src="./img/apresentacao_img/Logo Leiticia Duarte.png"
                     alt="logo da leticia duarte na tela de cadastros de alunos">
             </section>
@@ -71,7 +71,7 @@
             </section>
 
 
-            <h2>Histórico de Cadastro</h2>
+            <h2>Histórico de Cadastro do(a) Admin</h2>
 
             <section class="sessao_cadastro ui segment blue">
 
